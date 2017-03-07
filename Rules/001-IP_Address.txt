@@ -1,0 +1,6 @@
+Existing Rule 1: IP Addresses should not be hardcoded.
+https://sonarqube.com/coding_rules#languages=java|q=ip address.
+
+Obviously this is impossible to do on the cloud since you aren't guaranteed a specific IP address in the cloud. 
+
+This second Rule I'm not sure if it applies to cloud since my knowledge in this field is very limited.
