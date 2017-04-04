@@ -8,12 +8,13 @@
 	<version>1.0-SNAPSHOT</version>
 
 	<name>Example Plugin for SonarQube</name>
-	<description>Example of Plugin for SonarQube: Foo Language, FooLint, Custom Metrics and MeasureComputers</description>
+	<description>Example of Plugin for SonarQube: Foo Language, FooLint, Custom Metrics and MeasureComputers and Custom</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.apiVersion>5.6</sonar.apiVersion>
-		<jdk.min.version>1.8</jdk.min.version><sonar.version>6.3</sonar.version> <!-- this 6.3 is only required to be compliant with SonarLint and it is required 
+		<jdk.min.version>1.8</jdk.min.version>
+		<sonar.version>6.3</sonar.version> <!-- this 6.3 is only required to be compliant with SonarLint and it is required 
 			even if you just want to be compliant with SonarQube 5.6 -->
 		<java.plugin.version>4.7.1.9272</java.plugin.version>
 		<sslr.version>1.21</sslr.version>
