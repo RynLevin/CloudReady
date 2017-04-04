@@ -1,0 +1,7 @@
+New Rule 4: Instance Limit
+
+Some Webservices allow for only so many instance limits to be ran
+
+AWS for example allows only for 20 instances
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html#using-instance-addressing-limit

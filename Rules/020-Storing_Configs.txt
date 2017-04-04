@@ -1,0 +1,9 @@
+New Rule 020- Storing Configs
+
+https://12factor.net/config
+
+Apps sometimes store configs as constants in code.
+
+This is a core violation of the 12 factors of cloud computing.
+
+It is reccommended that configs be stored as enviromental variables
