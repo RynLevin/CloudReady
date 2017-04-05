@@ -1,4 +1,4 @@
-package org.sonar.template.java.checks;
+
 
 import com.google.common.collect.ImmutableList;
 
