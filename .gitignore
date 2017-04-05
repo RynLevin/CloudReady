@@ -1,11 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<projectDescription>
-	<name>CloudReady</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-	</buildSpec>
-	<natures>
-	</natures>
-</projectDescription>
+*target*
+*.jar
+*.war
+*.ear
+*.class
+.DS_Store
+
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+
