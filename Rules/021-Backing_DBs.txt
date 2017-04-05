@@ -1,0 +1,5 @@
+New Rule 021- Backing DBs
+
+https://12factor.net/backing-services
+
+Any Backing Resource, like a database for example, should be treated as an attached resource
