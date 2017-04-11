@@ -4,8 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.sonarsource.plugins.example</groupId>
-	<artifactId>java-example-plugin</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 
 	<name>Example Plugin for SonarQube</name>
 	<description>Example of Plugin for SonarQube: Foo Language, FooLint, Custom Metrics and MeasureComputers and Custom</description>
@@ -202,4 +201,5 @@
 		</pluginManagement>
 	</build>
 
+	<artifactId>CloudReadyPlugin</artifactId>
 </project>
