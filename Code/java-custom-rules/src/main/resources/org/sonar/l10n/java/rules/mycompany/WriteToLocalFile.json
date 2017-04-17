@@ -1,12 +1,12 @@
 {
-  "title": "Security Annotation Mandatory",
+  "title": "Do not write to local file",
   "status": "ready",
   "remediation": {
     "func": "Constant\/Issue",
     "constantCost": "5min"
   },
   "tags": [
-    "security"
+    "bug"
   ],
   "defaultSeverity": "Minor"
 }

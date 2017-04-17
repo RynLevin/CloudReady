@@ -43,26 +43,7 @@ public class MyJavaRulesDefinitionTest {
     assertThat(repository.language()).isEqualTo("java");
     assertThat(repository.rules()).hasSize(RulesList.getChecks().size());
 
-    assertRuleProperties(repository);
-    assertParameterProperties(repository);
     assertAllRuleParametersHaveDescription(repository);
-  }
-
-  private void assertParameterProperties(Repository repository) {
-    // TooManyLinesInFunctionCheck
-    Param max = repository.rule("AvoidAnnotation").param("name");
-    assertThat(max).isNotNull();
-    assertThat(max.defaultValue()).isEqualTo("Inject");
-    assertThat(max.description()).isEqualTo("Name of the annotation to avoid, without the prefix @, for instance 'Override'");
-    assertThat(max.type()).isEqualTo(RuleParamType.STRING);
-  }
-
-  private void assertRuleProperties(Repository repository) {
-    Rule rule = repository.rule("AvoidAnnotation");
-    assertThat(rule).isNotNull();
-    assertThat(rule.name()).isEqualTo("Title of AvoidAnnotation");
-    assertThat(rule.debtRemediationFunction().type()).isEqualTo(Type.CONSTANT_ISSUE);
-    assertThat(rule.type()).isEqualTo(RuleType.BUG);
   }
 
   private void assertAllRuleParametersHaveDescription(Repository repository) {
