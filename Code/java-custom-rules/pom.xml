@@ -115,6 +115,11 @@
 			<version>0.9.30</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    		<groupId>org.sonarsource.java</groupId>
+    		<artifactId>java-checks</artifactId>
+    		<version>3.8</version>
+		</dependency>
 	</dependencies>
 
 	<build>

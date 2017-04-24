@@ -1,0 +1,9 @@
+<p>This rule detects writing to a logger which should not be done in cloud-ready code.</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+Logger logger = new Logger("..."); // Write to logger
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+Connection conn = DriverManager.getConnection(/* ... */); // Open database connection
+</pre>
