@@ -1,6 +1,12 @@
 Existing Rule 1: IP Addresses should not be hardcoded.
 https://sonarqube.com/coding_rules#languages=java|q=ip address.
 
+Documentation on the Inet Address
+https://docs.oracle.com/javase/7/docs/api/java/net/InetAddress.html
+
+sample ideas of how someone stores an IP
+http://stackoverflow.com/questions/8677707/data-type-for-storing-ip-addresses
+http://stackoverflow.com/questions/11689789/what-is-the-best-way-to-store-ip-addresses-in-application
 Obviously this is impossible to do on the cloud since you aren't guaranteed a specific IP address in the cloud. 
 
 This second Rule I'm not sure if it applies to cloud since my knowledge in this field is very limited.
