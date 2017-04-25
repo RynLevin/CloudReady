@@ -1,8 +1,10 @@
 # CloudReady
 
-##  How to Install SonarQube
-	In order to install SonarQube, begin by following this link (https://docs.sonarqube.org/display/SONAR/Get+Started+in+Two+Minutes).
- Follow this step by step along with their guide
+##  How to Install SonarQube 
+In order to install SonarQube, begin by following this link (https://docs.sonarqube.org/display/SONAR/Get+Started+in+Two+Minutes).
+
+Follow this step by step along with their guide
+
 1.) begin by downloading the SonarQube Client and unpacking the zip file in the proper directory.
 2.) From this point, you have officially installed SonarQube and only need to Install the Scanner.
 2a.) Before you download the Scanner, check to see if the Server is working
