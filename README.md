@@ -32,4 +32,6 @@ C:\sonar-scanner\bin\sonar-scanner.bat
 # On other operating system:
 cd /etc/sonar-scanning-examples/sonarqube-scanner
 /etc/sonar-scanner/bin/sonar-scanner
+
+
 6.) You can now see the results of your scan. If you had to change the port number from the defaulted area, change “https://localhost:9000” to the appropriate port number.
