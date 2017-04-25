@@ -1,3 +1,5 @@
+FYI: 4-15 are JSON rules that require Javascript Plugin
+
 New Rule 4: Instance Limit
 
 Some Webservices allow for only so many instance limits to be ran
@@ -13,3 +15,5 @@ https://docs.oracle.com/javase/tutorial/essential/io/cl.html
 
 Below is how someone would scale an application with multiple instances on cloud foundry.
 http://cli.cloudfoundry.org/en-US/cf/scale.html
+
+
