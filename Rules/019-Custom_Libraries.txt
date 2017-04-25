@@ -1,3 +1,5 @@
+This rule requires a XML scanner which is in a Plugin called xpathsonarqube
+
 New Rule 019- Custom Libraries
 
 A rule should be implemented that scans libraries that are being used. If there are any custom libraries,
