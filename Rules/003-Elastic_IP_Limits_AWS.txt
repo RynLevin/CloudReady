@@ -1,3 +1,5 @@
+This Rule requires a Json Scanner, found in the JavaScript Plugin.
+
 New Rule 3: Elastic IP Limits for AWS
 
 Amazon Web Service offers Elastic IP addresses, so if one instance of it fails, another can be created by remapping it to another instance.
