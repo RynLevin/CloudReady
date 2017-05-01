@@ -1,4 +1,7 @@
+Status: To be implemented 
+
 # Rule 1: IP Addresses should not be hardcoded.
+
 ```
 https://sonarqube.com/coding_rules#languages=java|q=ip address.
 ```
@@ -16,3 +19,4 @@ http://stackoverflow.com/questions/11689789/what-is-the-best-way-to-store-ip-add
 
 This is impossible to do on the cloud since you aren't guaranteed a specific IP address in the cloud. 
 
+Side note, there is another method to store IP addresses. Inet.

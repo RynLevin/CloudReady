@@ -1,6 +1,11 @@
-New Rule 13: AddCache Minimum
+Block: This Rule requires a Json Scanner, found in the JavaScript Plugin.
 
-From AWS: http://docs.aws.amazon.com/storagegateway/latest/APIReference/API_AddCache.html
+# Rule 13: AddCache Minimum
+
+From AWS:
+```
+ http://docs.aws.amazon.com/storagegateway/latest/APIReference/API_AddCache.html
+```
 
 "AddCache
 
@@ -13,11 +18,12 @@ In the request, you specify the gateway Amazon Resource Name (ARN) to which you 
 So in order to use AddCache, it requires that you supply the GatewayARN and atleast one diskID.
 
 Example Syntax:
-
+```
 {
    "DiskIds": [ "string" ],
    "GatewayARN": "string"
 }
+```
 
 Below is some information about these types.
 

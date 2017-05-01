@@ -1,6 +1,10 @@
-New Rule 014: AddTagsToResource Maximum
+Block: This Rule requires a Json Scanner, found in the JavaScript Plugin.
 
+# Rule 014: AddTagsToResource Maximum
+
+```
 http://docs.aws.amazon.com/storagegateway/latest/APIReference/API_AddTagsToResource.html
+```
 
 "Adds one or more tags to the specified resource. You use tags to add metadata to resources,
  which you can use to categorize these resources. For example, you can categorize resources by 

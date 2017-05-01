@@ -1,4 +1,6 @@
-New Rule 12: Gateway TapeDriveType Length
+Block: This Rule requires a Json Scanner, found in the JavaScript Plugin.
+
+# Rule 12: Gateway TapeDriveType Length
 
 This should be the last String Length issue in regards to String Constraints
 

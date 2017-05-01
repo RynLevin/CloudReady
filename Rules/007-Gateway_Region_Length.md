@@ -1,4 +1,6 @@
-New Rule 7: Gateway Region Length
+Block: This Rule requires a Json Scanner, found in the JavaScript Plugin.
+
+# Rule 7: Gateway Region Length
 
 According to AWS
 
@@ -7,4 +9,6 @@ The gateway region specified must be the same region as the region in your Host 
 
 This also has a min and max for the string length. AWS' min is 1 and its' max is 25.
 
+```
 http://docs.aws.amazon.com/storagegateway/latest/APIReference/API_ActivateGateway.html#API_ActivateGateway_RequestSyntax
+```
