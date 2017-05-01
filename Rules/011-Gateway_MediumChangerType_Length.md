@@ -1,8 +1,13 @@
-New Rule 11: MediumChangerType Length
+Block: This Rule requires a Json Scanner, found in the JavaScript Plugin.
+
+# Rule 11: MediumChangerType Length
 
 Another String Length Problem regarding Gateway
 
-Description from AWS http://docs.aws.amazon.com/storagegateway/latest/APIReference/API_ActivateGateway.html#API_ActivateGateway_RequestSyntax
+Description from AWS 
+```
+http://docs.aws.amazon.com/storagegateway/latest/APIReference/API_ActivateGateway.html#API_ActivateGateway_RequestSyntax
+```
 
 "The value that indicates the type of medium changer to use for tape gateway.
  This field is optional.

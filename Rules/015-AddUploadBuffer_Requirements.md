@@ -1,6 +1,9 @@
-New Rule 015: AddUploadBuffer
+Block: This Rule requires a Json Scanner, found in the JavaScript Plugin.
 
+# Rule 015: AddUploadBuffer
+```
 http://docs.aws.amazon.com/storagegateway/latest/APIReference/API_AddUploadBuffer.html
+```
 
 AddUploadBuffer
 
@@ -13,10 +16,12 @@ and one or more disk IDs that you want to configure as upload buffer."
 
 Sample Syntax
 
+```
 {
    "DiskIds": [ "string" ],
    "GatewayARN": "string"
 }
+```
 
 In order for this action to work, you must supply the name of the ARN and atleast one diskID that you want to configure.
 

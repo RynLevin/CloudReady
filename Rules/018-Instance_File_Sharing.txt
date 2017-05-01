@@ -1,5 +1,0 @@
-018- Instance File Sharing
-
-Since these instances are seperate VMs, they do not share a local file system.
-
-The User might need to use a database to have these VMs access the same data.

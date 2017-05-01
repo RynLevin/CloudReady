@@ -1,6 +1,9 @@
-New Rule 5: Gateway Name String Length
+Block: This Rule requires a Json Scanner, found in the JavaScript Plugin.
+
+# Rule 5: Gateway Name String Length
 
 Information about Gateways:
+
 [
 A cloud storage gateway is a hardware- or software-based appliance located on the customer premises
  that serves as a bridge between local applications and remote cloud-based storage. 
@@ -15,4 +18,7 @@ have limits on how big the String can be.
 
 For AWS, it is a string that has a minimum length of 2 characters and a Max length of 255.
 
-Documentation Link : http://docs.aws.amazon.com/storagegateway/latest/APIReference/API_ActivateGateway.html#API_ActivateGateway_RequestSyntax
+Documentation Link : 
+```
+http://docs.aws.amazon.com/storagegateway/latest/APIReference/API_ActivateGateway.html#API_ActivateGateway_RequestSyntax
+```
