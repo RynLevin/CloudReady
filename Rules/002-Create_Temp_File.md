@@ -6,4 +6,4 @@
 https://sonarqube.com/coding_rules#languages=java|q="file.createtempfile"
 ```
 
-We are not entirely sure how a cloud platform creates a Temp File, so this could be a possible rule.
+Temp files cannot be used to store information for between proccesses as proccesses may not be running on a shared file system
