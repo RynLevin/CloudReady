@@ -22,6 +22,7 @@ package org.sonar.samples.java;
 import com.google.common.collect.ImmutableList;
 import java.util.List;
 import org.sonar.plugins.java.api.JavaCheck;
+import org.sonar.samples.java.checks.HardcodeIPRule;
 import org.sonar.samples.java.checks.WriteToLocalFileRule;
 import org.sonar.samples.java.checks.WriteToLoggerRule;
 
@@ -38,6 +39,7 @@ public final class RulesList {
     return ImmutableList.<Class<? extends JavaCheck>>builder()
       .add(WriteToLocalFileRule.class)
       .add(WriteToLoggerRule.class)
+      .add(HardcodeIPRule.class)
       .build();
   }
 

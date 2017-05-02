@@ -32,26 +32,26 @@ import org.sonar.api.server.rule.RulesDefinition.Rule;
 
 public class MyJavaRulesDefinitionTest {
 
-  @Test
-  public void test() {
-    MyJavaRulesDefinition rulesDefinition = new MyJavaRulesDefinition();
-    RulesDefinition.Context context = new RulesDefinition.Context();
-    rulesDefinition.define(context);
-    RulesDefinition.Repository repository = context.repository(MyJavaRulesDefinition.REPOSITORY_KEY);
+	@Test
+	public void test() {
+		MyJavaRulesDefinition rulesDefinition = new MyJavaRulesDefinition();
+		RulesDefinition.Context context = new RulesDefinition.Context();
+		rulesDefinition.define(context);
+		RulesDefinition.Repository repository = context.repository(MyJavaRulesDefinition.REPOSITORY_KEY);
 
-    assertThat(repository.name()).isEqualTo("MyCompany Custom Repository");
-    assertThat(repository.language()).isEqualTo("java");
-    assertThat(repository.rules()).hasSize(RulesList.getChecks().size());
+		assertThat(repository.name()).isEqualTo("MyCompany Custom Repository");
+		assertThat(repository.language()).isEqualTo("java");
+		assertThat(repository.rules()).hasSize(RulesList.getChecks().size());
 
-    assertAllRuleParametersHaveDescription(repository);
-  }
+		assertAllRuleParametersHaveDescription(repository);
+	}
 
-  private void assertAllRuleParametersHaveDescription(Repository repository) {
-    for (Rule rule : repository.rules()) {
-      for (Param param : rule.params()) {
-        assertThat(param.description()).as("description for " + param.key()).isNotEmpty();
-      }
-    }
-  }
+	private void assertAllRuleParametersHaveDescription(Repository repository) {
+		for (Rule rule : repository.rules()) {
+			for (Param param : rule.params()) {
+				assertThat(param.description()).as("description for " + param.key()).isNotEmpty();
+			}
+		}
+	}
 
 }
