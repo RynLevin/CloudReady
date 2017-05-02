@@ -28,7 +28,7 @@ FileDirectory_You_Put_sonarqube_In\sonarqube\bin\windows-x86-xx\StartSonar.bat
 2b.) In order to change the port number, located in sonarqube/conf/sonar is a file named “sonar” that contains information for the server. Located at Line 213 is a Elasticsearch option. As you can read, it shows that sonarqube defaults it’s port at 9001. If you want to use a free port, you can change the value of “sonar.search.port=_____” to 0. If a # sign is infront of this line, delete it or sonarqube will ignore your change and continue on normally.
 ]
 
-3.) At this you should have sonarqube working. If you are able to run the server, then you can move on to the next step, downloading the scanner and unzip it in the same directory that you unpacked the Sonarqube server.
+3.) At this point you should have sonarqube working. If you are able to run the server, then you can move on to the next step, downloading the scanner and unzip it in the same directory that you unpacked the Sonarqube server.
 
 4.) Either Download their sample project or put in one of your own in the same directory as the previous two downloads.
 
