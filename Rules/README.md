@@ -2,6 +2,12 @@ File all the text descriptors of each rule and the status of the rule
 
 # How To Make A Rule
 
+#### To make a rule there will need to add a total of 5 files per rule, and edit a 6th existing file.
+
+##### Create File 1: 
+```
+src/main/java/org/sonar/samples/java/checks/{ruleName}Rule.java
+```
 To implement a new rule there will be 2 important functions.  
 
 ```
@@ -17,7 +23,7 @@ The visitNode() function tells it what to look for in each node, and then will c
 
 Each tree (depending on the type of node) has different methods to access different parts of the code, all found if you open the folder on their GitHub that hosts the kind enum.
 
-Create File 2: 
+##### Create File 2: 
 
 ```
 src/test/java/org/sonar/samples/java/checks/{ruleName}Test.java
@@ -30,25 +36,25 @@ public void test() {
 JavaCheckVerifier.verify("src/test/files/{ruleName}Test.java", new {ruleName}());
 }
 ```
-Create File 3: 
+##### Create File 3: 
 ```
 src/test/files/{ruleName}Test.java
 ```
 This file should contain test cases, some which pass your test and some which fail.  For any line that fails the test, you should include the flag "// Noncompliant" after it so the compiler knows that it should expect that rule to fail
 
-Create File 4: 
+##### Create File 4: 
 ```
 src/main/resources/org/sonar/i10n/java/rules/mycompany/{ruleName}.html
 ```
 This is the HTML page that appears in SonarQube when you want to see what a rule does. 
 
-Create File 5: 
+##### Create File 5: 
 ```
 src/main/resources/org/sonar/i10n/java/rules/mycompany/{ruleName}.json
 ```
 This is the JSON file that helps tell the scanner information about the rule.  
 
-Edit File 1: 
+##### Edit File: 
 ```
 src/main/java/org/sonar/samples/java/checks/RulesList.java
 ```
